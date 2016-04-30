@@ -1,0 +1,37 @@
+{
+  "name": "gulp-lipsum-vars",
+  "version": "0.0.1",
+  "description": "Replace $lipsum(words:2) by lorem ipsum",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipsumar/gulp-lipsum-vars.git"
+  },
+  "author": "Emmanuel Pire <piremmanuel@gmail.com> (github.com/lipsumar)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "lorem-ipsum": "^1.0.3",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/lipsumar/gulp-lipsum-vars/issues"
+  },
+  "homepage": "https://github.com/lipsumar/gulp-lipsum-vars#readme",
+  "main": "index.js"
+}
