@@ -18,7 +18,11 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin"
+    "gulpplugin",
+    "lipsum",
+    "lorem",
+    "ipsum",
+    "lorem-ipsum"
   ],
   "dependencies": {
     "gulp-util": "^3.0.7",
