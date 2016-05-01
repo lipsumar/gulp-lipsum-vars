@@ -23,7 +23,6 @@ function process(str) {
 				count: parseInt(lipsumOpts.words, 10),
 				units: 'words'
 			});
-			console.log(lipsum);
 		}
 
 		if (!lipsum) {
