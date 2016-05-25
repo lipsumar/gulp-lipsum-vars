@@ -1,6 +1,6 @@
 {
   "name": "gulp-lipsum-vars",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Replace $lipsum(words:2) by lorem ipsum",
   "license": "MIT",
   "repository": {
