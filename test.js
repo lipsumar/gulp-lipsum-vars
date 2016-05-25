@@ -19,3 +19,19 @@ test.cb(t => {
 
 	stream.end();
 });
+test.cb('multiple', t => {
+	const stream = fn();
+
+	stream.once('data', file => {
+		t.is(file.contents.toString(), '<p>hello lipsum and lipsum</p>');
+		t.end();
+	});
+
+	stream.write(new gulpUtil.File({
+		base: __dirname,
+		path: path.join(__dirname, 'file.ext'),
+		contents: new Buffer('<p>hello $lipsum() and $lipsum()</p>')
+	}));
+
+	stream.end();
+});
